@@ -1,0 +1,35 @@
+1. Explain the four pillars of object-oriented programming.
+
+Inheritance
+The property of acquiring all the properties and behaviors of the parent object by an object is termed as inheritance.
+
+
+Encapsulation
+Encapsulation is the packing of data and functions into one component (for example, a class) and then controlling access
+ to that component to make a "blackbox" out of the object. Because of this, a user of that class only needs to know its
+  interface (that is, the data and functions exposed outside the class), not the hidden implementation.
+
+Abstraction
+An abstraction is a way of hiding the implementation details and showing only the functionality to the users. In other
+words, it ignores the irrelevant details and shows only the required one.
+
+Polymorphism
+ In polymorphism, multiple objects will have the same method but different implementation and depending upon the user
+ preference the corresponding object will be selected and the method corresponding to that object will be executed.
+
+
+
+
+ 2.Differentiate between JRE, JVM and JDK.
+
+   1. JDK (Java Development Kit) is a Kit that provides the environment to develop and execute(run) the Java program.
+   JDK is a kit(or package) that includes two things
+   Development Tools(to provide an environment to develop your java programs)
+   JRE (to execute your java program).
+   [12:34, 05/09/2022] 𝓡𝓼𝓾𝓻𝔂𝓪: 2. JRE (Java Runtime Environment) is an installation package that provides an environment
+    to only run(not develop) the java program(or application)onto your machine. JRE is only used by those who only want
+     to run Java programs that are end-users of your system.
+
+   3. JVM (Java Virtual Machine) is a very important part of both JDK and JRE because it is contained or inbuilt in
+   both. Whatever Java program you run using JRE or JDK goes into JVM and JVM is responsible for executing the java
+   program line by line, hence it is also known as an interpreter.
